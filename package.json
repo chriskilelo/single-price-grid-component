@@ -1,0 +1,13 @@
+{
+  "name":"community",
+  "versions":"1.0.0",
+  "description":"building page for frontend development practice.",
+  "author":"TO GOD BE ALL THE GLORY",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts":{
+    "build":"tailwindcss -i ./src/css/input.css -o ./src/css/main.css",
+    "watch":"tailwindcss -i ./src/css/input.css -o ./src/css/main.css --watch"
+  }
+} 
